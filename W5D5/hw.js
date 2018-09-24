@@ -9,3 +9,12 @@ function hammerTime(time) {
     alert(`${time} is still Hammer Time`);
   });
 }
+
+
+const readline = require('readline')
+
+const reader = readline.create({
+
+  input: process.stdin,
+  output: process.stdout
+});
